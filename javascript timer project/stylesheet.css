@@ -1,4 +1,33 @@
+h1{
+    max-width: 100%;
+}
+
 button{
     background-color: crimson;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number]{
+    /* max-width: 30%; */
+    max-width: 60px;
+    align-items: center;
+    border: none;
+}
+
+
+#timer-container,input[type=number]{
+    font-size: 50px;
+}
+
+#timer-container{
+    max-width: 50%;
+    margin: auto;
+    display: flexbox;
 
 }

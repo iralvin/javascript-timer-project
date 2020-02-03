@@ -7,17 +7,19 @@
   </head>
 
   <body>
-    <h1>Timer</h1>
-    <!-- <h2 id="timer">00:00:00:000</h2> -->
+    <div id="timer-container">
+      <h1>Timer</h1>
+      <input type="number" id="hours" max="99"  value="00"> :
+      <input type="number" id="minutes" max="99"  value="00"> :
+      <input type="number" id="seconds" max="99"  value="00">
+    </div>
 
-    <input type="number" id="hours" value="00">
-    <input type="number" id="minutes" value="00">
-    <input type="number" id="seconds" value="00">
+    <div id="timer-buttons">
+      <button id="start">start</button>
+      <button id="stop">stop</button>
+      <button id="restart">clear</button>
+    </div>
 
-
-    <button id="start">start</button>
-    <button id="stop">stop</button>
-    <button id="restart">clear</button>
 
     <script src="timer.js"></script>
   </body>
