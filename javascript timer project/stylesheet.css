@@ -1,10 +1,29 @@
-h1{
-    max-width: 100%;
+body{
+    display: flexbox;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button{
     background-color: crimson;
 
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+#timer-container{
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    min-width: 25%;
+    /* display: flexbox; */
+
+}
+
+#timer-container,input[type=number]{
+    font-size: 50px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -14,20 +33,21 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number]{
-    /* max-width: 30%; */
+    /* min-width: 30%; */
     max-width: 60px;
-    align-items: center;
     border: none;
 }
 
-
-#timer-container,input[type=number]{
-    font-size: 50px;
-}
-
-#timer-container{
-    max-width: 50%;
+#timer-buttons{
+    max-width: fit-content;
     margin: auto;
-    display: flexbox;
+    margin-top: 10px;
 
 }
+#start, #stop, #restart{
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+
