@@ -27,6 +27,7 @@ hoursText.onfocus = function(){
     if (hoursText.value === "00"){
         hoursText.value = "";
     }
+    this.select();
 }
 hoursText.onblur = function(){
     if (hoursText.value === "" || hoursText.value === 0){
@@ -42,6 +43,7 @@ minutesText.onfocus = function(){
     if (minutesText.value === "00"){
         minutesText.value = "";
     }
+    this.select();
 }
 minutesText.onblur = function(){
     if (minutesText.value === "" || minutesText.value === 0){
@@ -57,6 +59,7 @@ secondsText.onfocus = function(){
     if (secondsText.value === "00"){
         secondsText.value = "";
     }
+    this.select();
 }
 secondsText.onblur = function(){
     if (secondsText.value === "" || secondsText.value === 0){
